@@ -1,0 +1,11 @@
+print("Apple & Loaf")
+from random import*
+appetizers = ("spicy applesauce wings", "breadsticks", "mozzerella sticks ")
+x = randint(0, len(appetizers)-1)
+print("appetizers:", appetizers[x])
+maincourse = ("sandwiches with apple slices", "alfredo pasta with apple bits", )
+x = randint(0, len(maincourse)-1)
+print("maincourse:", maincourse[x])
+desserts = ("applepie", "cheesecake with apple slices", "angel cake with toasted apple")
+x = randint(0, len(desserts)-1)
+print("desserts:", desserts[x])
